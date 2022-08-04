@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"FantasqueSansMono Nerd Font 12";
+	font:							"JuliaMono Medium 12";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -35,7 +35,7 @@ prompt {
 	padding: 						0% 1% 0% 0%;
 	background-color: 				@background;
 	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 12";
+	font:							"FantasqueSansMono Nerd Font 10";
 }
 
 entry {
@@ -73,12 +73,12 @@ listview {
 
 mainbox {
     background-color:               @background;
-	border:							0% 0% 3% 0%;
+	border:							0% 0% 2.5% 0%;
     border-radius:                  0% 0% 0% 0%;
 	border-color:					@border-alt;
     children:                       [ inputbar, listview ];
     spacing:                       	2%;
-    padding:                        12.50% 10% 5% 10%;
+    padding:                        5% 5% 5% 5%;
 }
 
 element {
@@ -105,7 +105,7 @@ element-text {
     horizontal-align:               0.5;
     vertical-align:                 0.5;
     margin:                         0.5% 1% 0% 1%;
-	font:							"JuliaMono 14";
+	font:							"JuliaMono-Medium 9";
 }
 
 element normal.urgent,
