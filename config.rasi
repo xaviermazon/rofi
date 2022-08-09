@@ -5,4 +5,4 @@ configuration {
   icon-theme:         "Papirus";
 }
 @import "~/.config/rofi/themes/sidebar.rasi"
-@theme "/home/xavi/.config/rofi/themes/sidebar.rasi"
+@theme "~/.config/rofi/themes/sidebar.rasi"
